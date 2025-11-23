@@ -16,13 +16,13 @@ Features include saving/loading games and tracking your best completion time.
 
   **Directory Structure:**
 
--> board.py         # Board class: mine placement, neighbour counts, printing, reveal-all
--> game_logic.py    # Core game logic: reveal, flag, win-check
--> file_manager.py  # Handles best-time loading & saving (time.txt)
--> game_state.py    # Save/load/delete game state (savegame.dat)
--> main.py          # Game entry point & main loop 
--> savegame.dat     # Saved game data
--> time.txt         # Stores best completion time
+-> board.py         # Board class: mine placement, neighbour counts, printing, reveal-all  
+-> game_logic.py    # Core game logic: reveal, flag, win-check  
+-> file_manager.py  # Handles best-time loading & saving (time.txt)  
+-> game_state.py    # Save/load/delete game state (savegame.dat)  
+-> main.py          # Game entry point & main loop   
+-> savegame.dat     # Saved game data  
+-> time.txt         # Stores best completion time  
 
 **Game Instructions:**
 
