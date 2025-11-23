@@ -24,19 +24,23 @@ Features include saving/loading games and tracking your best completion time.
 -> savegame.dat     # Saved game data  
 -> time.txt         # Stores best completion time  
 
+----------
+
 **Game Instructions:**
 
-. Board is 9×9 with 10 hidden mines.
-. Cells start hidden.
-. Your commands:
-     r row col → reveal a cell
-     f row col → flag/unflag a suspected mine
+. Board is 9×9 with 10 hidden mines  
+. Cells start hidden  
+. Your commands:  
+     r row col → reveal a cell  
+     f row col → flag/unflag a suspected mine  
 
-. q → save and quit
-. Revealing a mine = game over.
-. Reveal all non-mine cells = you win.
-. Empty cells auto-expand when revealed.
-. Game auto-saves on quit and auto-loads on next launch.
+. q → save and quit  
+. Revealing a mine = game over.  
+. Reveal all non-mine cells = you win.  
+. Empty cells auto-expand when revealed.  
+. Game auto-saves on quit and auto-loads on next launch.  
+
+----------
 
 **Setup Instructions:**
 
@@ -45,7 +49,7 @@ Features include saving/loading games and tracking your best completion time.
 3. Open terminal in that folder.
 4. Run the game:
      
-     python main.py
+      python main.py
      
 
 
