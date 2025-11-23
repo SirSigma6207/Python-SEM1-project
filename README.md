@@ -42,9 +42,9 @@ Features include saving/loading games and tracking your best completion time.
 2. Put all project files in the same folder.
 3. Open terminal in that folder.
 4. Run the game:
-     ---------------
+     
      python main.py
-     ---------------
+     
 
 
 ***ENJOY***
