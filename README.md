@@ -12,8 +12,12 @@ Features include saving/loading games and tracking your best completion time.
 - **Save & resume games** via a binary save file   
 - **Best time tracking** stored locally in a text file
 
-  **Directory Structure:**
+----
 
+  **Directory Structure:**
+```text
+
+.
 ├── board.py         # Board class: mine placement, neighbour counts, printing, reveal-all
 ├── game_logic.py    # Core game logic: reveal, flag, win-check
 ├── file_manager.py  # Handles best-time loading & saving (time.txt)
