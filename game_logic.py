@@ -2,7 +2,7 @@
 game_logic.py
 
 Contains the core non-board-specific logic for the Minesweeper game,
-including functions for revealing cells, placing/removing flags, 
+which includes functions for revealing cells, placing/removing flags, 
 and checking the win condition.
 """
 
@@ -16,8 +16,6 @@ def reveal(board, row, col):
     to automatically reveal all valid, hidden neighbours.
     Otherwise, it reveals the number and returns True.
         
-    Returns:
-        bool: False if a mine was hit (game over), True otherwise.
     """
     if not board.is_valid(row, col) or board.player_grid[row][col] != 'H':
         return True
@@ -75,3 +73,4 @@ def check_win(board):
             if ((not mine) and hidden):
                 return False                
     return True
+
